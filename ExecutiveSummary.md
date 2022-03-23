@@ -94,8 +94,4 @@ Example: To decrease response time from dispatchers so that people in urgent nee
 * Average accumulation of garbage in different load sites
 
 ### Impact Measurement
-Since you cannot wait to see the impact of your product, estimate it. You can do that by either using the estimations/predictions of your model, market research, products from proxy industries and/or similar locations, etc.
-
-Example:
-* *Based on model predictions*: Our model estimates a decrease of 6 minutes of the average dispatch time and a decrease of the average distance of 200 meters
-* *Based on proxy products*: Similar studies in other cities show that the dispatch time can be decreased by as much as 13 minutes, depending on the traffic intensity of that city.
+Based on proxy products: Waste management plans are essential in the projection towards a circular economy
