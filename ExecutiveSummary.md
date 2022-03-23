@@ -55,7 +55,10 @@ Tell us what methods and algorithms you used and the results you obtained.
 2. Algorithms for forecasts
   This is where we built the actual models. For the Vector Autoregressive(VAR) model, we built it to make predictions of future waste production based on information 
   from previous waste- and temperature data. The model did not make accurate predictions when given a test set, however it did make predictions that aligned with 
-  the patterns of the actual data.
+  the patterns of the actual data. For the ARIMA (Auto Regressive Integrated Moving Average) we built the model using an auto_arima function that automatically 
+  calculated the best parameters for the ARIMA (p,d,q) (P,D,Q) model, in our specific case we decided to use a seasonality P=12. Also a Naive Seasonal method have
+  been used to compare the quality of the two models since the serie seems affected by seasonality. Finally, we also used a Prophet model based on an additive model to
+  make a out of sample predictions since the data showed yearly seasonality.
   
 
 ## 💡 Main Insights (300 words max)
@@ -64,8 +67,7 @@ Explain what you discovered from addressing this problem, such as interesting fa
 
 ## 🛠️ Product
 ### Definition
-Define in **one sentence** what product(s) could be built out of the code you produced.
-Example: A dashboard that assists in traffic control
+A schedule to reorganize the collection of the garbage during differents peiods of the year
 
 ### Users
 Describe who would be the users of your product and for what purpose would they use it.
