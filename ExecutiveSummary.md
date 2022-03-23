@@ -89,10 +89,9 @@ If the outputs are your immediate results, describe your long-term results. What
 Example: To decrease response time from dispatchers so that people in urgent need receive help faster.
 
 ### Impact Metrics
-From the outcome, define **2 to 4 metrics** that measure if you are achieving that outcome or not.
-Example:
-* Average Dispatch Time
-* Average Distance from Accident Location and Dispatch Center
+* Monthly garbage production per capita 
+* Number of trucks in operations
+* Average accumulation of garbage in different load sites
 
 ### Impact Measurement
 Since you cannot wait to see the impact of your product, estimate it. You can do that by either using the estimations/predictions of your model, market research, products from proxy industries and/or similar locations, etc.
