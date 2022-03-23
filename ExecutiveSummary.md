@@ -1,18 +1,5 @@
 # World Data League 2022
 
-## Executive Summary Template
-This executive summary is one of the mandatory deliverables when you submit your solution. Its structure follows the WDL evaluation criteria and it has dedicated sections where you should add information. Make sure your executive summary covers all the sections since it will be an integral part of the Insights Report and your evaluation. Make sure your content is relevant and straight to the point.
-**There is no need to reach the maximum number of words.**
-
-Instructions:
-
-1. 🧱 Create a separate copy of this template and do not change the predefined structure
-2. 👥 Fill in the Authors section with the name of each team member
-3. ✏️ Write your executive summary - make sure you write to a non-technical crowd. You can refer to images that are in the Submission Notebook.
-4. 📄 Fill in all the text sections
-5. 🗑️ Remove this section (‘Executive Summary Template’) and any instructions inside other sections
-6. ⬆️ Upload the .md file to the submission platform.
-
 ## 🎯 Challenge
 Predict Waste Production for its Reduction
 
@@ -47,12 +34,12 @@ We have used three datasets:
 
 ## 🧮 Methods and Techniques (250 words max)
 Tell us what methods and algorithms you used and the results you obtained.
-1. Exploratory/Descriptive analysis
+1. Exploratory/Descriptive analysis:
   This is where we explored the data to understand what we were working with. In this stage we transformed the data, for example from the date and time into summarized 
   monthly observations. We also performed statistcal tests to find indicators of how 'well-behaved' data was. We also plotted the data over time to find patterns such 
   as 'Seasonality' and other underlying patterns that are difficult to see otherwise.
 
-2. Algorithms for forecasts
+2. Algorithms for forecasts:
   This is where we built the actual models. For the Vector Autoregressive(VAR) model, we built it to make predictions of future waste production based on information 
   from previous waste- and temperature data. The model did not make accurate predictions when given a test set, however it did make predictions that aligned with 
   the patterns of the actual data. For the ARIMA (Auto Regressive Integrated Moving Average) we built the model using an auto_arima function that automatically 
@@ -62,36 +49,32 @@ Tell us what methods and algorithms you used and the results you obtained.
   
 
 ## 💡 Main Insights (300 words max)
-Explain what you discovered from addressing this problem, such as interesting facts or statistics.
-*Write here*
+Main insights from these anlyzes are to take advantage of the strong seasonality of the data shown in several models and decompositions presented. If the operational 
+management can anticipate and plan for heavy- and easy waste production resources can be used more efficiently and waste processing can happen smoothly.
 
 ## 🛠️ Product
 ### Definition
-A schedule to reorganize the collection of the garbage during differents peiods of the year
+A schedule to reorganize the collection of the garbage during differents peiods of the year.
 
 ### Users
-Describe who would be the users of your product and for what purpose would they use it.
-Example: Traffic controllers use the dashboard during their work to better plan where to dispatch resources
+Municipality of Austin together with operational management of waste processing company.
 
 ### Activities
-Describe what features your product has.
-Example:
-* Predicts the most likely locations for traffic accidents
-* Suggests the fastest route from dispatch centres
+Predicts when waste production will be heavy.
 
 ### Output
-Describe what the product outputs to the users and how it does that. You can add mockups and/or visualisations.
-Example: Location of the accident on a map and suggest the fastest route from the dispatch centre.
+Calendar showing what times of the year you can expect heavy- and low waste production.
 
 ## 🌍 Social Impact Measurement
 ### Outcome
-If the outputs are your immediate results, describe your long-term results. What do you want your product to achieve? What ''good'' are you creating?
-Example: To decrease response time from dispatchers so that people in urgent need receive help faster.
+We hope that this product will increase efficiency in waste management. Both in resources used (employees, garbage trucks needed, etc) and in effective waste 
+processing. So that processing can happen correctly, meaning that landfills and recycling stations don't get too overloaded to the point that they fail to handel the 
+waste properly.
 
 ### Impact Metrics
-* Monthly garbage production per capita 
-* Number of trucks in operations
-* Average accumulation of garbage in different load sites
+* Monthly garbage production per capita.
+* Number of trucks in operations.
+* Average accumulation of garbage in different load sites.
 
 ### Impact Measurement
-Based on proxy products: Waste management plans are essential in the projection towards a circular economy
+Based on proxy products: Waste management plans are essential in the projection towards a circular economy and a good waste management plan can reduce improper waste handling by up to 20%.
