@@ -23,8 +23,10 @@ Predict Waste Production for its Reduction
 * Navid Saffari
 
 ## ✨ Introduction (250 words max)
-Rapid urbanization is a fact. Cities all across the globe are growing rapidly, and with them waste and pollutions increase as well. In 2016, cities generated a total of 2.01 billion tons of solid waste.
-For this challenge we try to find trends in waste production for identifying patterns and insights that might help optimize waste processing and, ultimately, reduce waste production overall.
+Rapid urbanization is a fact. Cities all across the globe are growing rapidly, and with them waste and pollutions increase as well. In 2016, cities generated a total 
+of 2.01 billion tons of solid waste.
+For this challenge we try to find trends in waste production for identifying patterns and insights that might help optimize waste processing and, ultimately, reduce 
+waste production overall.
 The project has been carried out using Austin, Texas, as the subject of study, but we hope the results may be applied to the general case as well.
 
 
@@ -32,7 +34,8 @@ The project has been carried out using Austin, Texas, as the subject of study, b
 We have used three datasets:
 1. Waste-data https://data.austintexas.gov/Utilities-and-City-Services/Waste-Collection-Diversion-Report-daily-/mbnu-4wq9
   Records waste-loads in pounds by date and time. Data is categorized by type of waste, where it is dropped off and the number of the route.
-  This is quite nice data but unfortuanntley many missing values. More available data generally means better models and better predictions, so it could be improved in that way.
+  This is quite nice data but unfortuanntley many missing values. More available data generally means better models and better predictions, so it could be improved in
+  that way.
 
 2. Population data https://www.austintexas.gov/sites/default/files/files/Planning/Demographics/population_history_pub.pdf
   Total poluation per year and annual growth rate. 
@@ -44,7 +47,16 @@ We have used three datasets:
 
 ## 🧮 Methods and Techniques (250 words max)
 Tell us what methods and algorithms you used and the results you obtained.
-Methods
+1. Exploratory/Descriptive analysis
+  This is where we explored the data to understand what we were working with. In this stage we transformed the data, for example from the date and time into summarized 
+  monthly observations. We also performed statistcal tests to find indicators of how 'well-behaved' data was. We also plotted the data over time to find patterns such 
+  as 'Seasonality' and other underlying patterns that are difficult to see otherwise.
+
+2. Algorithms for forecasts
+  This is where we built the actual models. For the Vector Autoregressive(VAR) model, we built it to make predictions of future waste production based on information 
+  from previous waste- and temperature data. The model did not make accurate predictions when given a test set, however it did make predictions that aligned with 
+  the patterns of the actual data.
+  
 
 ## 💡 Main Insights (300 words max)
 Explain what you discovered from addressing this problem, such as interesting facts or statistics.
