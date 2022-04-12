@@ -1,7 +1,7 @@
 # World Data League 2022
 
 ## 🎯 Challenge
-Predict Waste Production for its Reduction
+Predict Waste Production for its Reductionn
 
 ## 👥 Authors
 * Emil Henricsson Ene
